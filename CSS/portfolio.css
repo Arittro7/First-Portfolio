@@ -1,6 +1,5 @@
-/* *{
-  margin: 0;
-  padding: 0; */
+*{
+  font-family: 'Merriweather', serif;
 }
 
 /* common shared styles */
@@ -13,7 +12,6 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  font-family: 'Merriweather', serif;
 }
 
 .sec-des {
@@ -35,7 +33,6 @@ body {
   font-size: 20px;
   font-weight: 700;
   border: 0;
-  font-family: 'Merriweather', serif;
 
 }
 
@@ -73,7 +70,7 @@ nav a {
 /* head related styles */
 .header {
   background-color: #fff8f3;
-  background-image: url(../images/header_bg.png);
+  background-image: url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -133,4 +130,7 @@ main{
 }
 .info-description{
   margin-top: -15px;
+}
+#what-i-do-des{
+  padding: 30px 150px;
 }
