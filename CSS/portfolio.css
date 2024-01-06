@@ -1,31 +1,50 @@
 /* common shared styles */
-body{
+body {
   font-family: 'Merriweather', serif;
 }
-.pry-text{
-  color:#FD6E0A;  
+
+.pry-text {
+  color: #FD6E0A;
 }
-.pry-btn{
-  border-radius: 2px;
+
+.pry-btn {
+  border-radius: 5px;
   background: #FD6E0A;
+  padding: 15px 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+  font-family: 'Merriweather', serif;
+
 }
+
 /* nav related css styles */
-nav{
+nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+
 }
-.nav-title{
+
+.nav-title {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
   display: flex;
+  align-items: center;
 }
-nav li{
+
+nav li {
   list-style: none;
   margin-right: 50px;
 }
-nav a{
+
+nav a {
   text-decoration: none;
   color: #474747;
+  text-align: center;
 }
