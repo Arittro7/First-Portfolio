@@ -1,3 +1,7 @@
+/* *{
+  margin: 0;
+  padding: 0; */
+}
 /* common shared styles */
 body {
   font-family: 'Merriweather', serif;
@@ -24,6 +28,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 
 }
 
@@ -47,4 +52,16 @@ nav a {
   text-decoration: none;
   color: #474747;
   text-align: center;
+}
+/* head related styles */
+.header{
+  background-color: #fff8f3;
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .pro-pic{
+  width: 500px;
 }
